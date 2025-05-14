@@ -27,6 +27,8 @@
       模板分支是：
       <text class="text-green-500">base</text>
     </view>
+	
+	<button @click="login"> login </button>
   </view>
 </template>
 
@@ -49,6 +51,24 @@ onLoad(() => {
   console.log(author)
   console.log(TestEnum.A)
 })
+
+
+
+
+function login(){
+	debugger
+	console.log('start login')
+	uni.login({
+		provider: 'univerify',
+		univerifyStyle: {
+	    fullScreen: true,
+		fail(e){
+			debugger
+		}
+	  }
+	})
+	
+}
 </script>
 
 <style>
