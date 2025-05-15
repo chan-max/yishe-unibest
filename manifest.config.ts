@@ -14,9 +14,9 @@ const {
 } = env
 
 export default defineManifestConfig({
-  name: VITE_APP_TITLE,
+  name: '衣设',
   appid: VITE_UNI_APPID,
-  description: '',
+  description: '衣设 - 线上服装商城',
   versionName: '1.0.0',
   versionCode: '100',
   transformPx: false,

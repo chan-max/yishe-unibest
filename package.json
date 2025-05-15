@@ -1,14 +1,14 @@
 {
-  "name": "yishe-unibest",
+  "name": "yishe",
   "type": "commonjs",
   "version": "2.6.3",
-  "description": "unibest - 最好的 uniapp 开发模板",
+  "description": "衣设 - 线上服装商城",
   "author": {
-    "name": "feige996",
-    "zhName": "菲鸽",
-    "email": "1020103647@qq.com",
-    "github": "https://github.com/feige996",
-    "gitee": "https://gitee.com/feige996"
+    "name": "你的名字",
+    "zhName": "你的中文名",
+    "email": "your_email@example.com",
+    "github": "https://github.com/your_github",
+    "gitee": "https://gitee.com/your_gitee"
   },
   "license": "MIT",
   "repository": "https://github.com/feige996/unibest",
